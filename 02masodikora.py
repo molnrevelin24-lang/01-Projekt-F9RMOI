@@ -1,4 +1,4 @@
-#adattipusok
+#adattipusokl
 '''tobsoros
 komment'''
 
