@@ -54,7 +54,7 @@ def veletlenszam(max):
 
 def egesz_szam_bekerese():
     while True:
-        szam = input("Adjon meg egy egesz szamot")
+        szam = input("Adjon meg egy egesz szamot ")
         try:
             szam = int(szam)
             break

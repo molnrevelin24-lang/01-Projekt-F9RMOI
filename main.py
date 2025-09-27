@@ -1,18 +1,8 @@
-import p03
-
-szam = 10
-while szam > 2:
-    szam -= 1
-    if szam == 4:
-        continue
-    if szam == 3:
-        break
-    print(szam)
+try:
+    eredmeny = 10 / 0 #ertek akkor nevhiba
+except ZeroDivisionError:
+    print("HIBA: Nullaval valo osztas")
+except NameError:
+    print("HIBA: nevhiba")
 else:
-    print("Ciklus vege")
-
-while True:
-    szam += 1
-    print(szam)
-    if szam == 30:
-        break
+    print(eredmeny)
