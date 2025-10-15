@@ -1,1 +1,1 @@
-#teszt
+#teszt ujra huzva a gép és ujra csatlakoztatni masik mappabol a githubot
